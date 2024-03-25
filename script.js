@@ -9,6 +9,6 @@ $(document).ready(function() {
         $('input').val('')
     }) 
     $('ul').on('click', 'li', function(){
-        $(this).toggleClass('strike').fadeOut(200);
+        $(this).toggleClass('line-through').fadeOut(200);
     })
 })

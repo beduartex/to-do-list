@@ -1,0 +1,43 @@
+* {
+    background-color: antiquewhite;
+}
+
+header .title {
+    position: flex;
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+}
+
+form {
+    padding: 8px 0;
+    text-align: center;
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background-color: #009432;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#botao-cancelar {
+    background-color: red;
+}
+
+ul {
+    font-size: 24px;
+    padding: 8px 0;
+    margin-left: 48%;
+}

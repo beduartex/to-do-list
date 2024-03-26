@@ -9,6 +9,6 @@ $(document).ready(function() {
         $('input').val('')
     }) 
     $('ul').on('click', 'li', function(){
-        $(this).toggleClass('line-through').fadeOut(200);
+        $(this).toggleClass('completed').fadeOut(800);
     })
 })

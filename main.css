@@ -32,6 +32,10 @@ button {
     color: #fff;
 }
 
+.completed {
+    text-decoration: line-through;
+}
+
 #botao-cancelar {
     background-color: red;
 }
